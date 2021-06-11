@@ -1,14 +1,15 @@
 import NavBar from './navbar';
+import Test from '@client/Test';
 
 function App() {
   return (
     <>
       <NavBar></NavBar>
-      <div class="container">
-        <div class="row">
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <Test />
+          </div>
         </div>
       </div>
     </>
